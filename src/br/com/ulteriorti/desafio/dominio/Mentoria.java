@@ -2,13 +2,13 @@ package br.com.ulteriorti.desafio.dominio;
 
 import java.time.LocalDate;
 
-public class Mentoria extends Conteudo{
+public class Mentoria extends Conteudo {
 
     private LocalDate data;
 
     @Override
     public double calcularXp() {
-        return 0;
+        return XP_BASE + 20d;
     }
 
     public LocalDate getData() {
