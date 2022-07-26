@@ -1,3 +1,4 @@
+import br.com.ulteriorti.desafio.dominio.Conteudo;
 import br.com.ulteriorti.desafio.dominio.Curso;
 import br.com.ulteriorti.desafio.dominio.Mentoria;
 
@@ -22,6 +23,7 @@ public class Main {
         mentoria.setDescricao("Descricao");
         mentoria.setData(LocalDate.now());
 
+        Conteudo conteudo = new Curso();
         System.out.println(mentoria);
     }
 }
